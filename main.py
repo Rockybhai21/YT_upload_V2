@@ -7,7 +7,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 # this is storage. it stores data that user gives.
 storage = MemoryStorage()
 # i don't know what this is. i guess this is how bots are structured
-bot_token=Config.BOT_TOKEN
+bot_token=BOT_TOKEN()
 dp = Dispatcher(bot, storage=storage)
 
 
